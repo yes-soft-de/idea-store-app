@@ -24,6 +24,9 @@ class idea extends StatelessWidget {
 
                         child:  DropdownButton(
                       hint:  Text("20 Categories"),
+                          dropdownColor: Colors.grey,
+                          focusColor: Colors.white,
+                          style: TextStyle(color: Colors.lightBlueAccent),
 
     ),),
                     ),
@@ -61,7 +64,7 @@ class idea extends StatelessWidget {
           children: <Widget>[
             Padding(padding: EdgeInsets.all(20),
               child: Container(
-                width:400,
+                width:380,
 
                 height: 650,
 
@@ -102,7 +105,7 @@ class idea extends StatelessWidget {
                             Row(
                               children: <Widget>[
                                 Padding(padding: EdgeInsets.all(10),
-                                  child: Icon(Icons.date_range,color: Colors.lightBlue,),)
+                                  child: Icon(Icons.date_range,color: Colors.orange,),)
                               ],
                             ),
                             Row(
