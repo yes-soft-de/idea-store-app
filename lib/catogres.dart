@@ -60,219 +60,219 @@ class Categories extends StatelessWidget {
 
                       child:
                       Column(
-                      
-                      children: <Widget>[
-                        Padding(padding: EdgeInsets.only(left: 10,top: 10,right: 200),
-                        child: Text("Categories",style: TextStyle(color: Colors.blue,fontSize: 25),),
-                        ),
-                        Padding(padding: EdgeInsets.all(15),
-                          child: Row(
 
-                            children: <Widget>[
-                              Expanded(child: Column(
-                                children: <Widget>[
-                                  Container(
-                                    width: 150,
+                        children: <Widget>[
+                          Padding(padding: EdgeInsets.only(left: 10,top: 10,right: 200),
+                            child: Text("Categories",style: TextStyle(color: Colors.blue,fontSize: 25),),
+                          ),
+                          Padding(padding: EdgeInsets.all(15),
+                            child: Row(
 
-                                    height: 150,
-                                    color: Colors.lime,
-                                    child: Column(
-                                      children: <Widget>[
-                                        Padding(padding: EdgeInsets.only(right: 50),
-                                          child: Text("Art",style: TextStyle(color: Colors.black,fontSize: 20),),),
-                                        Padding(padding: EdgeInsets.all(10),
-                                          child: CircleAvatar(
-                                            backgroundColor: Colors.white,
-                                            child: Icon(Icons.headset,color: Colors.black,),
+                              children: <Widget>[
+                                Expanded(child: Column(
+                                  children: <Widget>[
+                                    Container(
+                                      width: 150,
 
-                                          ),),
-                                        Padding(padding: EdgeInsets.all(10),
-                                            child:
-                                            Text("4 App",style: TextStyle(fontSize: 20,color: Colors.black),)),
+                                      height: 150,
+                                      color: Colors.lime,
+                                      child: Column(
+                                        children: <Widget>[
+                                          Padding(padding: EdgeInsets.only(right: 50),
+                                            child: Text("Art",style: TextStyle(color: Colors.black,fontSize: 20),),),
+                                          Padding(padding: EdgeInsets.all(10),
+                                            child: CircleAvatar(
+                                              backgroundColor: Colors.white,
+                                              child: Icon(Icons.headset,color: Colors.black,),
 
-                                      ],
-                                    ),
+                                            ),),
+                                          Padding(padding: EdgeInsets.all(10),
+                                              child:
+                                              Text("4 App",style: TextStyle(fontSize: 20,color: Colors.black),)),
 
-                                    decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(50),
-                                      color: Colors.black,
+                                        ],
+                                      ),
 
-                                    ),)
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(50),
+                                        color: Colors.black,
 
-
-                                ],
-                              )),
+                                      ),)
 
 
-                              Expanded(child: Column(
-                                children: <Widget>[
-                                  Container(
-                                    width: 150,
-                                    height: 150,
-                                    color: Colors.lightGreenAccent,
+                                  ],
+                                )),
 
-                                    child: Column(
-                                      children: <Widget>[
-                                        Padding(padding: EdgeInsets.only(right: 50),
-                                          child: Text("Market",style: TextStyle(color: Colors.black,fontSize: 20),),),
-                                        Padding(padding: EdgeInsets.all(10),
-                                          child: CircleAvatar(
-                                            backgroundColor: Colors.white,
-                                            child: Icon(Icons.volume_down,color: Colors.black,),
 
-                                          ),),
-                                        Padding(padding: EdgeInsets.all(10),
-                                            child:
-                                            Text("2 App",style: TextStyle(fontSize: 20,color: Colors.green),)),
+                                Expanded(child: Column(
+                                  children: <Widget>[
+                                    Container(
+                                      width: 150,
+                                      height: 150,
+                                      color: Colors.lightGreenAccent,
 
-                                      ],
-                                    ),
-                                  )
+                                      child: Column(
+                                        children: <Widget>[
+                                          Padding(padding: EdgeInsets.only(right: 50),
+                                            child: Text("Market",style: TextStyle(color: Colors.black,fontSize: 20),),),
+                                          Padding(padding: EdgeInsets.all(10),
+                                            child: CircleAvatar(
+                                              backgroundColor: Colors.white,
+                                              child: Icon(Icons.volume_down,color: Colors.black,),
 
-                                ],
-                              )),
+                                            ),),
+                                          Padding(padding: EdgeInsets.all(10),
+                                              child:
+                                              Text("2 App",style: TextStyle(fontSize: 20,color: Colors.green),)),
 
-                            ],
+                                        ],
+                                      ),
+                                    )
+
+                                  ],
+                                )),
+
+                              ],
+                            ),
+
+                          ),
+                          Padding(padding: EdgeInsets.all(15),
+                            child: Row(
+
+                              children: <Widget>[
+                                Expanded(child: Column(
+                                  children: <Widget>[
+                                    Container(
+                                      width: 150,
+                                      height: 150,
+                                      color: Colors.lightBlueAccent,
+                                      child: Column(
+                                        children: <Widget>[
+                                          Padding(padding: EdgeInsets.only(right: 50),
+                                            child: Text("Education",style: TextStyle(color: Colors.black,fontSize: 15),),),
+                                          Padding(padding: EdgeInsets.all(10),
+                                            child: CircleAvatar(
+                                              backgroundColor: Colors.white,
+                                              child: Icon(Icons.book,color: Colors.black,),
+
+                                            ),),
+                                          Padding(padding: EdgeInsets.all(10),
+                                              child:
+                                              Text("1 App",style: TextStyle(fontSize: 20,color: Colors.black),)),
+
+                                        ],
+                                      ),
+                                    )
+
+                                  ],
+                                )),
+                                Expanded(child: Column(
+                                  children: <Widget>[
+                                    Container(
+                                      width: 150,
+                                      height: 150,
+                                      color: Colors.pinkAccent,
+
+                                      child: Column(
+                                        children: <Widget>[
+                                          Padding(padding: EdgeInsets.only(right: 50),
+                                            child: Text("Health",style: TextStyle(color: Colors.black,fontSize: 20),),),
+                                          Padding(padding: EdgeInsets.all(10),
+                                            child: CircleAvatar(
+                                              backgroundColor: Colors.white,
+                                              child: Icon(Icons.favorite,color: Colors.black,),
+
+                                            ),),
+                                          Padding(padding: EdgeInsets.all(10),
+                                              child:
+                                              Text("6 App",style: TextStyle(fontSize: 20,color: Colors.black),)),
+
+                                        ],
+                                      ),
+                                    )
+
+                                  ],
+                                )),
+
+
+                              ],
+                            ),
+
+                          ),
+                          Padding(padding: EdgeInsets.all(15),
+                            child: Row(
+
+                              children: <Widget>[
+                                Expanded(child: Column(
+                                  children: <Widget>[
+                                    Container(
+                                      width: 150,
+                                      height: 150,
+                                      color: Colors.purpleAccent,
+                                      child: Column(
+                                        children: <Widget>[
+                                          Padding(padding: EdgeInsets.only(right: 50),
+                                            child: Text("Art",style: TextStyle(color: Colors.black,fontSize: 20),),),
+
+                                          Padding(padding: EdgeInsets.all(10),
+                                            child: CircleAvatar(
+                                              backgroundColor: Colors.white,
+                                              child: Icon(Icons.book,color: Colors.black,),
+
+                                            ),),
+                                          Padding(padding: EdgeInsets.all(10),
+                                              child:
+                                              Text("5 App",style: TextStyle(fontSize: 20,color: Colors.black),)),
+
+                                        ],
+                                      ),
+                                    )
+
+                                  ],
+                                )),
+                                Expanded(child: Column(
+                                  children: <Widget>[
+                                    Container(
+                                      width: 150,
+                                      height: 150,
+                                      color: Colors.limeAccent,
+
+                                      child: Column(
+                                        children: <Widget>[
+                                          Padding(padding: EdgeInsets.only(right: 50),
+                                            child: Text("Sport",style: TextStyle(color: Colors.black,fontSize: 20),),),
+                                          Padding(padding: EdgeInsets.all(10),
+                                            child: CircleAvatar(
+                                              backgroundColor: Colors.white,
+                                              child: Icon(Icons.show_chart,color: Colors.black,),
+
+                                            ),),
+                                          Padding(padding: EdgeInsets.all(10),
+                                              child:
+                                              Text("7 App",style: TextStyle(fontSize: 20,color: Colors.black),)),
+
+                                        ],
+                                      ),
+                                    )
+
+                                  ],
+                                )),
+
+
+                              ],
+                            ),
+
                           ),
 
-                        ),
-                        Padding(padding: EdgeInsets.all(15),
-                          child: Row(
-
-                            children: <Widget>[
-                              Expanded(child: Column(
-                                children: <Widget>[
-                                  Container(
-                                    width: 150,
-                                    height: 150,
-                                    color: Colors.lightBlueAccent,
-                                    child: Column(
-                                      children: <Widget>[
-                                        Padding(padding: EdgeInsets.only(right: 50),
-                                          child: Text("Education",style: TextStyle(color: Colors.black,fontSize: 15),),),
-                                        Padding(padding: EdgeInsets.all(10),
-                                          child: CircleAvatar(
-                                            backgroundColor: Colors.white,
-                                            child: Icon(Icons.book,color: Colors.black,),
-
-                                          ),),
-                                        Padding(padding: EdgeInsets.all(10),
-                                            child:
-                                            Text("1 App",style: TextStyle(fontSize: 20,color: Colors.black),)),
-
-                                      ],
-                                    ),
-                                  )
-
-                                ],
-                              )),
-                              Expanded(child: Column(
-                                children: <Widget>[
-                                  Container(
-                                    width: 150,
-                                    height: 150,
-                                    color: Colors.pinkAccent,
-
-                                    child: Column(
-                                      children: <Widget>[
-                                        Padding(padding: EdgeInsets.only(right: 50),
-                                          child: Text("Health",style: TextStyle(color: Colors.black,fontSize: 20),),),
-                                        Padding(padding: EdgeInsets.all(10),
-                                          child: CircleAvatar(
-                                            backgroundColor: Colors.white,
-                                            child: Icon(Icons.favorite,color: Colors.black,),
-
-                                          ),),
-                                        Padding(padding: EdgeInsets.all(10),
-                                            child:
-                                            Text("6 App",style: TextStyle(fontSize: 20,color: Colors.black),)),
-
-                                      ],
-                                    ),
-                                  )
-
-                                ],
-                              )),
-
-
-                            ],
-                          ),
-
-                        ),
-                        Padding(padding: EdgeInsets.all(15),
-                          child: Row(
-
-                            children: <Widget>[
-                              Expanded(child: Column(
-                                children: <Widget>[
-                                  Container(
-                                    width: 150,
-                                   height: 150,
-                                    color: Colors.purpleAccent,
-                                    child: Column(
-                                      children: <Widget>[
-                                        Padding(padding: EdgeInsets.only(right: 50),
-                                          child: Text("Art",style: TextStyle(color: Colors.black,fontSize: 20),),),
-
-                                        Padding(padding: EdgeInsets.all(10),
-                                          child: CircleAvatar(
-                                            backgroundColor: Colors.white,
-                                            child: Icon(Icons.book,color: Colors.black,),
-
-                                          ),),
-                                        Padding(padding: EdgeInsets.all(10),
-                                            child:
-                                            Text("5 App",style: TextStyle(fontSize: 20,color: Colors.black),)),
-
-                                      ],
-                                    ),
-                                  )
-
-                                ],
-                              )),
-                              Expanded(child: Column(
-                                children: <Widget>[
-                                  Container(
-                                    width: 150,
-                                    height: 150,
-                                    color: Colors.limeAccent,
-
-                                    child: Column(
-                                      children: <Widget>[
-                                        Padding(padding: EdgeInsets.only(right: 50),
-                                          child: Text("Sport",style: TextStyle(color: Colors.black,fontSize: 20),),),
-                                        Padding(padding: EdgeInsets.all(10),
-                                          child: CircleAvatar(
-                                            backgroundColor: Colors.white,
-                                            child: Icon(Icons.show_chart,color: Colors.black,),
-
-                                          ),),
-                                        Padding(padding: EdgeInsets.all(10),
-                                            child:
-                                            Text("7 App",style: TextStyle(fontSize: 20,color: Colors.black),)),
-
-                                      ],
-                                    ),
-                                  )
-
-                                ],
-                              )),
-
-
-                            ],
-                          ),
-
-                        ),
-
-                      ],
-                    )
+                        ],
+                      )
                   ),
                 )
 
             ),
           )       ],   ),
 
-     );
+    );
 
   }
 }

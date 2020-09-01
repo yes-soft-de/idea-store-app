@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:yessoft/catogres.dart';
+import 'package:yessoft/fullIdeia.dart';
 import 'package:yessoft/idea.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.white
             )
         ),),
-      home: idea(),
+      home: FullIdia(),
     );
   }
 }
