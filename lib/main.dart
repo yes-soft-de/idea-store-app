@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yessoft/catogres.dart';
-import 'package:yessoft/fullIdeia.dart';
-import 'package:yessoft/idea.dart';
+import 'file:///D:/pro/yessoft/lib/cats%20for%20sale/catogres.dart';
+import 'file:///D:/pro/yessoft/lib/fullIdeia/fullIdeia.dart';
+import 'file:///D:/pro/yessoft/lib/idea/idea.dart';
 
 void main() {
   runApp(MyApp());
