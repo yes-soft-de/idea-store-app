@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'file:///D:/pro/yessoft/lib/cats%20for%20sale/catogres.dart';
 import 'file:///D:/pro/yessoft/lib/fullIdeia/fullIdeia.dart';
 import 'file:///D:/pro/yessoft/lib/idea/idea.dart';
+import 'package:yessoft/type/typeScrenn.dart';
 
 void main() {
   runApp(MyApp());
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.white
             )
         ),),
-      home: FullIdia(),
+      home: TypeScrenn(),
     );
   }
 }
